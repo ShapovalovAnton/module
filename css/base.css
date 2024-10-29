@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Unbounded:wght@200..900&display=swap');
+:root{
+    /* Кольори */
+    
+    --color-medium-green: #269C0D;
+    --color-dark-green: #162E3C;
+    --color-light-green: #DDF0A7;
+    /* Шрифти */
+    --font-family-h: "Unbounded";
+    --font-family-text: "IBM Plex Mono";
+
+    /* Розміри тексту */
+    
+    --font-size-h2: 30px;
+    --font-size-h4: 22px;
+    --font-size-text: 16px;
+}

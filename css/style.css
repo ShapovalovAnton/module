@@ -1,0 +1,31 @@
+@import url(base.css);
+@import url(reset.css);
+@import url(header.css);
+@import url(sidebar.css);
+@import url(content.css);
+@import url(footer.css);
+@import url(menu.css);
+@import url(adaptive.css);
+
+body{
+    min-width:270px;
+}
+.site{
+    margin: auto;
+    display:flex;
+    justify-content: flex-start;
+    width:100%;
+}
+
+.container__column_flex{
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    
+}
+
+
+.border_darkgreen{
+    border: 2px solid var(--color-dark-green);
+}
+

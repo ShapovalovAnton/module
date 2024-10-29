@@ -1,0 +1,76 @@
+.content{
+    display: flex;
+    flex-direction: column;
+
+}
+/* main включає дві колонки */
+.main{
+    display: flex;
+    flex: 2;
+
+}
+.content__h3_font{
+    color: var(--color-dark-green);
+    font-size: var(--font-size-h2);
+    font-family: var(--font-family-h);
+}
+.content__h_position_center{
+    align-self: center;
+}
+
+.content__h4_font{
+    color: var(--color-dark-green);
+    font-size: var(--font-size-h1);
+    font-family: var(--font-family-h);
+}
+
+
+.content__p_font{
+    font-size: var(--font-size-text);
+    font-family: var(--font-family-text);
+}
+
+.content__p_position{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.content__img{
+    align-self: center;
+    width: 95%;
+    border-radius: 12px;
+    margin-bottom: 4%;
+}
+
+.content__section_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.sectionProducts__flex{
+    display: flex;
+    flex: 1;
+    gap: 5px;
+}
+
+.sectionProducts_img{
+    max-width: 32%;
+
+}
+/* Рядок пошуку */
+.search__input{
+    width: 90%;
+    padding-left: 2%;
+    min-height: auto;
+    background-color: var(--color-light-green);
+    align-self: center;
+    border-radius: 12px;
+}
+
+.search__input_font{
+    color: var(--color-dark-green);
+    font-size: var(--font-size-h2);
+    font-family: var(--font-family-text);
+}

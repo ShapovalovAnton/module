@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapovalov</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="site">
+        <!-- Ділимо сайт на колонки відповідно до макету -->
+        <div class="container__column_flex">
+            <!-- Працюємо з колонкою першою зліва -->
+            <!-- header з логотипом -->
+            <header class="header border_darkgreen">
+                <img class="header__img_width"src="img\header__logo.svg">
+                <h2 class="header__h2_font header__h2_position">BPLA BUILDER</h2>
+            </header>
+            <!-- Меню -->
+            <nav class="menu">
+                <a class="nav__a nav__a_font border_darkgreen" href="#aboutUs">Про нас</a>
+                <a class="nav__a nav__a_font border_darkgreen" href="#projects">Проекти</a>
+                <a class="nav__a nav__a_font border_darkgreen" href="#products">Продукція</a>
+                <a class="nav__a nav__a_font border_darkgreen" href="#search">Пошук</a>
+                <a class="nav__a nav__a_font border_darkgreen" href="#values">Цінності</a>
+            </nav>
+            <!-- Підвал -->
+            <footer class="footer">
+                <h2 class="footer__h2_font"> 
+                    @BPLA BUILDER
+                </h2>
+            </footer>
+        </div>
+        <!-- Наступні дві колонки містять основні дані - main -->
+        <main class="main border_darkgreen">
+            <!-- Колонка посередині -->
+            <div class="container__column_flex">
+                    <article class="content">
+                        <!-- Блок "Про нас" -->
+                        <section class="content__section_flex border_darkgreen">
+                            <a id="aboutUs"></a>
+                            <h3 class="content__h_position_center content__h3_font">Про нас</h3>
+                            <p class="content__p_font content__p_position"> Компанія була заснована у 2015 році групою ентузіастів аерокосмічної технології. З моменту свого заснування ми досягли значних успіхів у розробці безпілотних літальних апаратів, які використовуються в різних сферах, від сільського господарства до безпеки. Наші дрони стали еталоном якості та інновацій, завоювавши довіру 
+                                тисяч користувачів по всьому світу.
+                            </p>
+                            <img class="content__img" src="img\AboutUs_img.jpg">
+    
+                        </section>
+                        <!-- Блок "Проекти" -->
+                        <section class="content__section_flex border_darkgreen">
+                            <a id="projects"></a>
+                            <h3 class="content__h_position_center content__h3_font">Проекти</h3>
+                            <h4 class="content__h_position_center content__h4_font">MediDrone</h4>
+                            <img class="content__img" src="img/project/MediDrone.jpg">
+                            <p class="content__p_font content__p_position">У співпраці з MediDrone, ми брали участь у проекті доставки медикаментів дронами в малодоступні райони. Завдяки нашій технології вдалося забезпечити життєво необхідними препаратами регіони, куди традиційна доставка ускладнена
+                                 через відсутність інфраструктури.
+                            </p>
+                            <h4 class="content__h_position_center content__h4_font">PowerGrid</h4>
+                            <img class="content__img" src="img/project/PowerGrid.jpg">
+                            <p class="content__p_font content__p_position">Нас було запрошено для інспекції електромереж у рамках проекту з компанією PowerGrid. Наші дрони здійснювали огляд ліній електропередач та веж, що допомогло виявити пошкодження та попередити аварії, 
+                                забезпечивши стабільність енергопостачання в регіоні.
+                            </p>
+                            
+                        </section>
+                        <!-- Блок "Продукти" -->
+                        <section class="content__section_flex">
+                            <a id="products"></a>
+                            <h3 class="content__h_position_center content__h3_font">Продукція</h3>
+                            <div class="sectionProducts_flex">
+                                <img class="sectionProducts_img" src="img/product/BPLA_Shark_img.jpg">
+                                <img class="sectionProducts_img" src="img/product/BPLA_Hero_img.jpg">
+                                <img class="sectionProducts_img" src="img/product/BPLA_PD2_img.jpg">
+                            </div>
+                        </section>
+                    </article>
+            </div>
+            <!-- Остання колонка -->
+            <div class="container__column_flex border_darkgreen">
+                    <article class="content">
+                        <!-- Блок "Пошук" з рядком пошуку та меню соц мереж -->
+                        <section class="content__section_flex border_darkgreen">
+                            <a id="search"></a>
+                            <h3 class="content__h_position_center content__h3_font">Пошук</h3>
+                            <input class="search__input search__input_font"type="text" placeholder="Пошук...">
+                            <nav class="menu_social">
+                                <a  href="https://fit.knu.ua/"><img class="menu_social__img" src="img/social/facebook.svg"></a>
+                                <a href="https://fit.knu.ua/"><img class="menu_social__img" src="img/social/insta.svg"></a>
+                                <a href="https://fit.knu.ua/"><img class="menu_social__img" src="img/social/twitter.svg"></a>
+
+                            </nav>
+                        </section>
+                        <!-- Блок "Цінності" -->
+                        <section class="content__section_flex ">
+                            <a id="values"></a>
+                            <h3 class="content__h_position_center content__h3_font">Цінності</h3>
+                            <p class="content__p_font content__p_position"> Компанія BPLA Builder керується принципами якості, надійності та безпеки в кожному аспекті своєї діяльності. 
+                            </p> 
+                            <p class="content__p_font content__p_position">
+                                Ми віримо, що наші дрони повинні бути не тільки інноваційними, але й максимально надійними, адже вони виконують важливі завдання в різних галузях, від сільського господарства до безпеки та інфраструктури. 
+                            </p>   
+                             <p class="content__p_font content__p_position">
+                                Прагнучи до постійного розвитку, ми активно впроваджуємо новітні технології та інноваційні підходи, щоб створювати дрони, які забезпечують високу ефективність і відповідальне ставлення до навколишнього середовища. Наша команда об'єднана спільною метою — робити внесок у сталий розвиток, використовуючи передові технології для вирішення актуальних завдань та викликів сьогодення.
+                            </p>
+                            <p class="content__p_font content__p_position"> Компанія BPLA Builder керується принципами якості, надійності та безпеки в кожному аспекті своєї діяльності. 
+                            </p> 
+                            <p class="content__p_font content__p_position">
+                                Ми віримо, що наші дрони повинні бути не тільки інноваційними, але й максимально надійними, адже вони виконують важливі завдання в різних галузях, від сільського господарства до безпеки та інфраструктури. 
+                            </p>   
+                             <p class="content__p_font content__p_position">
+                                Прагнучи до постійного розвитку, ми активно впроваджуємо новітні технології та інноваційні підходи, щоб створювати дрони, які забезпечують високу ефективність і відповідальне ставлення до навколишнього середовища. Наша команда об'єднана спільною метою — робити внесок у сталий розвиток, використовуючи передові технології для вирішення актуальних завдань та викликів сьогодення.
+                            </p>
+                            <p class="content__p_font content__p_position"> Компанія BPLA Builder керується принципами якості, надійності та безпеки в кожному аспекті своєї діяльності. 
+                            </p> 
+                            <p class="content__p_font content__p_position">
+                                Ми віримо, що наші дрони повинні бути не тільки інноваційними, але й максимально надійними, адже вони виконують важливі завдання в різних галузях, від сільського господарства до безпеки та інфраструктури. 
+                            </p>   
+                             <p class="content__p_font content__p_position">
+                                Прагнучи до постійного розвитку, ми активно впроваджуємо новітні технології та інноваційні підходи, щоб створювати дрони, які забезпечують високу ефективність і відповідальне ставлення до навколишнього середовища. Наша команда об'єднана спільною метою — робити внесок у сталий розвиток, використовуючи передові технології для вирішення актуальних завдань та викликів сьогодення.
+                            </p>
+                            <p class="content__p_font content__p_position"> Компанія BPLA Builder керується принципами якості, надійності та безпеки в кожному аспекті своєї діяльності. 
+                            </p> 
+                            <p class="content__p_font content__p_position">
+                                Ми віримо, що наші дрони повинні бути не тільки інноваційними, але й максимально надійними, адже вони виконують важливі завдання в різних галузях, від сільського господарства до безпеки та інфраструктури. 
+                            </p>   
+                             <p class="content__p_font content__p_position">
+                                Прагнучи до постійного розвитку, ми активно впроваджуємо новітні технології та інноваційні підходи, щоб створювати дрони, які забезпечують високу ефективність і відповідальне ставлення до навколишнього середовища. Наша команда об'єднана спільною метою — робити внесок у сталий розвиток, використовуючи передові технології для вирішення актуальних завдань та викликів сьогодення.
+                            </p>
+                        </section>    
+                    </article>
+            </div>
+        </main> 
+    </div>
+</body>
+</html>

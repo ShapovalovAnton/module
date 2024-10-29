@@ -1,0 +1,10 @@
+@media (max-width:830px){
+    .main{
+        flex-direction: column;
+    }
+
+    .site{
+        flex-direction: column;
+    }
+
+}

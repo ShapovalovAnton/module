@@ -1,0 +1,39 @@
+/* Меню навігації по сторінці */
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__a{
+    text-align: center;
+    background-color: var(--color-light-green);
+    height: 40%;
+}
+
+.nav__a_font{
+    font-size: var(--font-size-h2);
+    font-family: var(--font-family-h);
+    color: var(--color-dark-green);
+    font-weight:bold;
+}
+
+/* При наведенні змінюються кольори */
+.nav__a:hover{
+    background-color: var(--color-dark-green);
+    color:var(--color-light-green);
+
+}
+
+/* Меню з соц мережами */
+.menu_social{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+/* При наведенні змінюються розміри */
+.menu_social__img:hover{
+    height: 120%;
+}
